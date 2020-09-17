@@ -53,6 +53,7 @@ def add_s(array)
     else
       newarray << (array[countindx]) + "s"
     end
+    countindx+=1
   end
   return newarray
 end

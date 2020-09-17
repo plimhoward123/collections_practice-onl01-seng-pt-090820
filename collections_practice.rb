@@ -49,7 +49,7 @@ def add_s(array)
   countindx = 0
   while (countindx < array.length)
     if (countindx == 1)
-
+      newarray << (array[countindx])
     else
       newarray << (array[countindx]) + "s"
     end
